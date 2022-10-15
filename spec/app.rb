@@ -1,4 +1,4 @@
-p [1, 2, 3]
-#The p method will output the data in a nicer format by calling the .inspect method on our data 
+#Ruby has one more method for pretty-printing complex data such as nested array and hashes 
+pp [{ id: 1, hello: "World" }, { id: 2, hello: "Ruby" }, { id: 3, hello: "Moon" }, { id: 4, hello: "Learner" }]
 
 
