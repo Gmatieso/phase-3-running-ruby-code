@@ -1,10 +1,5 @@
-puts "Hello Word!"
+puts [1, 2, 3]
+#Putting a string of data 
+#when using puts on something that isn't already a string, Ruby will coerce the data to a string  by calling the .to_s method . 
+#This is not effective .. that's where the p method comes in handy .
 
-#in ruby using parentheses when invorking a method is optional this can also be done like so.
-puts("Hello World")
-#Both these syntax are plesant but in rubby the first is usually determined since its good to look at  
-#unlike JavaScript will be using ruby interpreter ro run our code in the terminal 
-
-puts "Hello world!"
-puts "Hello world!"
-puts "Hello world!"
